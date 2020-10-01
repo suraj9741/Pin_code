@@ -5,8 +5,8 @@ echo "Enter the valid postal code : "
 read any
 if [[ $any =~ $pat ]]
 then
-	echo "Valid Pin code"
+	echo " Valid Pin code"
 else
-	echo "Invalid Pin Code"
+	echo " Invalid Pin Code"
 fi
 
